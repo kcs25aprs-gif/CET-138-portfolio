@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Full Stack Dev ePortfolio</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <span class="nav-brand">CET138 &mdash; ePortfolio</span>
+  <div class="nav-links">
+    <a href="#fullstack">Full Stack</a>
+    <a href="#html">HTML</a>
+    <a href="#css">CSS</a>
+    <a href="#bootstrap">Bootstrap</a>
+    <a href="#javascript">JavaScript</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <p class="hero-label">CET138 &middot; Full Stack Development &middot; Assignment 1</p>
+  <h1>A Developer's<br><em>ePortfolio</em></h1>
+  <p>A curated showcase of web development skills — from foundational HTML structure through to dynamic JavaScript interactions — demonstrating readiness for a junior full stack role.</p>
+  <div class="hero-meta">
+    <span class="hero-tag">HTML5</span>
+    <span class="hero-tag">CSS3</span>
+    <span class="hero-tag">Bootstrap 5</span>
+    <span class="hero-tag">JavaScript ES6+</span>
+  </div>
+</header>
+
+<!-- SECTION 1 — FULL STACK DEVELOPMENT -->
+<section class="portfolio-section" id="fullstack">
+  <div class="section-header">
+    <div class="section-num">01</div>
+    <div class="section-title-wrap">
+      <p class="section-tag">Concept</p>
+      <h2 class="section-title">What is Full Stack Development?</h2>
+    </div>
+  </div>
+  <div class="section-body">
+    <p>Full stack development refers to the practice of building both the <strong>front end</strong> (what users see and interact with) and the <strong>back end</strong> (the server, database, and application logic) of a web application. A full stack developer is comfortable working across every layer of a system.</p>
+    <p>The term "stack" describes the collection of technologies layered together to form a complete product. Each layer has a specific responsibility and communicates with the layers around it.</p>
+
+    <div class="stack-diagram" id="stack-diagram">
+      <div class="stack-layer">
+        <div class="stack-layer-icon" style="background:#faeeda;color:#854f0b;">UI</div>
+        <div class="stack-layer-text">
+          <h5>Presentation Layer</h5>
+          <p>HTML, CSS, JavaScript — what the user sees</p>
+        </div>
+      </div>
+      <div class="stack-layer">
+        <div class="stack-layer-icon" style="background:#e6f1fb;color:#185fa5;">FE</div>
+        <div class="stack-layer-text">
+          <h5>Client-Side Logic</h5>
+          <p>React / Vue / Vanilla JS — dynamic behaviour</p>
+        </div>
+      </div>
+      <div class="stack-layer">
+        <div class="stack-layer-icon" style="background:#e1f5ee;color:#0f6e56;">API</div>
+        <div class="stack-layer-text">
+          <h5>Application / Business Logic</h5>
+          <p>Node.js, Python, PHP — processes requests</p>
+        </div>
+      </div>
+      <div class="stack-layer">
+        <div class="stack-layer-icon" style="background:#eeedfe;color:#3c3489;">DB</div>
+        <div class="stack-layer-text">
+          <h5>Data Layer</h5>
+          <p>SQL / NoSQL databases — stores persistent data</p>
+        </div>
+      </div>
+      <div class="stack-layer">
+        <div class="stack-layer-icon" style="background:#f1efe8;color:#444441;">INF</div>
+        <div class="stack-layer-text">
+          <h5>Infrastructure</h5>
+          <p>Servers, cloud hosting, CDN, DNS</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="prose-box">
+      <h4>Front End vs. Back End vs. Full Stack</h4>
+      <p><strong>Front-end developers</strong> specialise in the browser — building layouts, styling, and interactivity. <strong>Back-end developers</strong> work on servers, APIs, databases, and security. A <strong>full stack developer</strong> bridges both, allowing them to architect complete features from database schema to pixel-perfect UI — making them especially valuable on small teams or in fast-moving startups.</p>
+    </div>
+
+    <div class="two-col">
+      <div>
+        <p style="font-family:'DM Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:0.1em;color:var(--mid);margin-bottom:0.6rem;">Common Front-End Tech</p>
+        <span class="pill pill-accent2">HTML5</span>
+        <span class="pill pill-accent2">CSS3</span>
+        <span class="pill pill-accent2">JavaScript</span>
+        <span class="pill pill-accent2">React</span>
+        <span class="pill pill-accent2">Bootstrap</span>
+        <span class="pill pill-accent2">TypeScript</span>
+      </div>
+      <div>
+        <p style="font-family:'DM Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:0.1em;color:var(--mid);margin-bottom:0.6rem;">Common Back-End Tech</p>
+        <span class="pill pill-ink">Node.js</span>
+        <span class="pill pill-ink">Python</span>
+        <span class="pill pill-ink">PHP</span>
+        <span class="pill pill-ink">PostgreSQL</span>
+        <span class="pill pill-ink">MongoDB</span>
+        <span class="pill pill-ink">REST APIs</span>
+      </div>
+    </div>
+
+    <p style="margin-top:1.5rem;">A common full-stack combination is the <strong>MERN stack</strong>: <em>MongoDB</em> (database), <em>Express.js</em> (server framework), <em>React</em> (front end), and <em>Node.js</em> (runtime). This portfolio itself is an example of front-end full-stack skills: it uses HTML for structure, CSS for presentation, Bootstrap for responsive layout, and JavaScript for interactivity — all the browser-side layers of a complete stack.</p>
+  </div>
+</section>
+
+<!-- SECTION 2 — HTML -->
+<section class="portfolio-section" id="html">
+  <div class="section-header">
+    <div class="section-num">02</div>
+    <div class="section-title-wrap">
+      <p class="section-tag">Structure</p>
+      <h2 class="section-title">HTML — HyperText Markup Language</h2>
+    </div>
+  </div>
+  <div class="section-body">
+    <p>HTML is the skeleton of every web page. It defines the <em>semantic structure</em> of content — headings, paragraphs, lists, links, tables, forms — using a system of tags and attributes. Browsers parse HTML into a tree structure called the <strong>Document Object Model (DOM)</strong>, which other technologies like CSS and JavaScript then interact with.</p>
+
+    <div class="prose-box">
+      <h4>Why Semantic HTML matters</h4>
+      <p>Semantic elements like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;footer&gt;</code> communicate <em>meaning</em>, not just appearance. This improves accessibility (screen readers understand the page hierarchy), SEO (search engines index content better), and maintainability.</p>
+    </div>
+
+    <div class="code-block">
+      <span class="code-block-label">HTML5 Document</span>
+      <code><span class="hl-com">&lt;!-- A minimal, semantically correct HTML5 page --&gt;</span>
+<span class="hl-tag">&lt;!DOCTYPE html&gt;</span>
+<span class="hl-tag">&lt;html</span> <span class="hl-attr">lang=</span><span class="hl-val">"en"</span><span class="hl-tag">&gt;</span>
+  <span class="hl-tag">&lt;head&gt;</span>
+    <span class="hl-tag">&lt;meta</span> <span class="hl-attr">charset=</span><span class="hl-val">"UTF-8"</span><span class="hl-tag">&gt;</span>
+    <span class="hl-tag">&lt;meta</span> <span class="hl-attr">name=</span><span class="hl-val">"viewport"</span> <span class="hl-attr">content=</span><span class="hl-val">"width=device-width, initial-scale=1.0"</span><span class="hl-tag">&gt;</span>
+    <span class="hl-tag">&lt;title&gt;</span>My Page<span class="hl-tag">&lt;/title&gt;</span>
+  <span class="hl-tag">&lt;/head&gt;</span>
+  <span class="hl-tag">&lt;body&gt;</span>
+    <span class="hl-tag">&lt;header&gt;</span>
+      <span class="hl-tag">&lt;nav&gt;</span><span class="hl-tag">&lt;a</span> <span class="hl-attr">href=</span><span class="hl-val">"/"</span><span class="hl-tag">&gt;</span>Home<span class="hl-tag">&lt;/a&gt;&lt;/nav&gt;</span>
+    <span class="hl-tag">&lt;/header&gt;</span>
+    <span class="hl-tag">&lt;main&gt;</span>
+      <span class="hl-tag">&lt;article&gt;</span>
+        <span class="hl-tag">&lt;h1&gt;</span>Hello, World<span class="hl-tag">&lt;/h1&gt;</span>
+        <span class="hl-tag">&lt;p&gt;</span>This is a paragraph.<span class="hl-tag">&lt;/p&gt;</span>
+      <span class="hl-tag">&lt;/article&gt;</span>
+    <span class="hl-tag">&lt;/main&gt;</span>
+    <span class="hl-tag">&lt;footer&gt;</span>&copy; 2025<span class="hl-tag">&lt;/footer&gt;</span>
+  <span class="hl-tag">&lt;/body&gt;</span>
+<span class="hl-tag">&lt;/html&gt;</span></code>
+    </div>
+
+    <p>The key attributes on line 1–6 are critical: <code>lang="en"</code> declares the language for accessibility tools, <code>charset="UTF-8"</code> ensures correct character encoding, and the <code>viewport</code> meta tag enables responsive behaviour on mobile devices.</p>
+
+    <div class="demo-area">
+      <div class="demo-bar">
+        <div class="demo-dot" style="background:#e8574f;"></div>
+        <div class="demo-dot" style="background:#f6b93b;"></div>
+        <div class="demo-dot" style="background:#4cba55;"></div>
+        <span class="demo-label">live demo — HTML elements</span>
+      </div>
+      <div class="demo-inner">
+        <h3 style="font-size:1.1rem;margin-bottom:0.8rem;font-weight:600;">Common HTML Elements Demonstrated</h3>
+
+        <h4 style="font-size:0.9rem;margin:1rem 0 0.4rem;color:#555;">Headings (h1–h6)</h4>
+        <h1 style="font-size:1.4rem;margin:0;">Heading 1</h1>
+        <h2 style="font-size:1.2rem;margin:0;">Heading 2</h2>
+        <h3 style="font-size:1.05rem;margin:0;">Heading 3</h3>
+
+        <h4 style="font-size:0.9rem;margin:1rem 0 0.4rem;color:#555;">Ordered &amp; Unordered Lists</h4>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+          <ol style="font-size:14px;padding-left:1.2rem;">
+            <li>Plan the project</li>
+            <li>Design the UI</li>
+            <li>Build and test</li>
+          </ol>
+          <ul style="font-size:14px;padding-left:1.2rem;">
+            <li>HTML — structure</li>
+            <li>CSS — style</li>
+            <li>JS — behaviour</li>
+          </ul>
+        </div>
+
+        <h4 style="font-size:0.9rem;margin:1rem 0 0.4rem;color:#555;">Form Elements</h4>
+        <form onsubmit="return false;" style="font-size:14px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;">
+          <input type="text" placeholder="Your name" style="border:1px solid #ccc;border-radius:4px;padding:6px 10px;font-size:13px;">
+          <input type="email" placeholder="Email" style="border:1px solid #ccc;border-radius:4px;padding:6px 10px;font-size:13px;">
+          <select style="border:1px solid #ccc;border-radius:4px;padding:6px 10px;font-size:13px;">
+            <option>HTML</option><option>CSS</option><option>JS</option>
+          </select>
+          <button type="submit" style="background:#c1440e;color:#fff;border:none;border-radius:4px;padding:6px 14px;font-size:13px;cursor:pointer;">Submit</button>
+        </form>
+
+        <h4 style="font-size:0.9rem;margin:1rem 0 0.4rem;color:#555;">Table</h4>
+        <table style="width:100%;border-collapse:collapse;font-size:13px;">
+          <thead>
+            <tr style="background:#f5f2eb;">
+              <th style="text-align:left;padding:6px 10px;border:1px solid #ddd;">Element</th>
+              <th style="text-align:left;padding:6px 10px;border:1px solid #ddd;">Type</th>
+              <th style="text-align:left;padding:6px 10px;border:1px solid #ddd;">Purpose</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td style="padding:6px 10px;border:1px solid #ddd;"><code>&lt;header&gt;</code></td><td style="padding:6px 10px;border:1px solid #ddd;">Semantic</td><td style="padding:6px 10px;border:1px solid #ddd;">Page or section header</td></tr>
+            <tr style="background:#fafafa;"><td style="padding:6px 10px;border:1px solid #ddd;"><code>&lt;img&gt;</code></td><td style="padding:6px 10px;border:1px solid #ddd;">Void</td><td style="padding:6px 10px;border:1px solid #ddd;">Embed an image</td></tr>
+            <tr><td style="padding:6px 10px;border:1px solid #ddd;"><code>&lt;a&gt;</code></td><td style="padding:6px 10px;border:1px solid #ddd;">Inline</td><td style="padding:6px 10px;border:1px solid #ddd;">Hyperlink</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <p style="margin-top:1rem;">The demo above shows headings maintaining a clear typographic hierarchy, both list types, a functional form with multiple input types, and a data table — all built with semantic HTML with no CSS classes required for structure.</p>
+  </div>
+</section>
+
+<!-- SECTION 3 — CSS -->
+<section class="portfolio-section" id="css">
+  <div class="section-header">
+    <div class="section-num">03</div>
+    <div class="section-title-wrap">
+      <p class="section-tag">Presentation</p>
+      <h2 class="section-title">CSS — Cascading Style Sheets</h2>
+    </div>
+  </div>
+  <div class="section-body">
+    <p>CSS controls the visual presentation of HTML — colour, typography, spacing, layout, animation and responsive design. Styles "cascade" from general rules down to specific ones, with specificity and inheritance determining which rule wins when multiple rules target the same element.</p>
+
+    <div class="prose-box">
+      <h4>The Box Model</h4>
+      <p>Every HTML element is rendered as a rectangular box. The CSS box model consists of four areas from inside out: <strong>content</strong> (the actual content), <strong>padding</strong> (space inside the border), <strong>border</strong> (the element boundary), and <strong>margin</strong> (space outside the border). Setting <code>box-sizing: border-box</code> makes width/height include padding and border, which is the modern standard.</p>
+    </div>
+
+    <div class="code-block">
+      <span class="code-block-label">CSS3 Examples</span>
+      <code><span class="hl-com">/* ── Selectors & Properties ── */</span>
+<span class="hl-fn">.card</span> {
+  <span class="hl-attr">background</span>: <span class="hl-val">#ffffff</span>;
+  <span class="hl-attr">border-radius</span>: <span class="hl-val">8px</span>;
+  <span class="hl-attr">box-shadow</span>: <span class="hl-val">0 4px 16px rgba(0,0,0,0.08)</span>;
+  <span class="hl-attr">padding</span>: <span class="hl-val">1.5rem</span>;
+  <span class="hl-attr">transition</span>: <span class="hl-val">transform 0.3s ease</span>;
+}
+<span class="hl-fn">.card:hover</span> { <span class="hl-attr">transform</span>: <span class="hl-val">translateY(-4px)</span>; }
+
+<span class="hl-com">/* ── Flexbox layout ── */</span>
+<span class="hl-fn">.nav</span> {
+  <span class="hl-attr">display</span>: <span class="hl-val">flex</span>;
+  <span class="hl-attr">justify-content</span>: <span class="hl-val">space-between</span>;
+  <span class="hl-attr">align-items</span>: <span class="hl-val">center</span>;
+  <span class="hl-attr">gap</span>: <span class="hl-val">1rem</span>;
+}
+
+<span class="hl-com">/* ── CSS Grid ── */</span>
+<span class="hl-fn">.grid</span> {
+  <span class="hl-attr">display</span>: <span class="hl-val">grid</span>;
+  <span class="hl-attr">grid-template-columns</span>: <span class="hl-val">repeat(auto-fit, minmax(200px, 1fr))</span>;
+  <span class="hl-attr">gap</span>: <span class="hl-val">1.5rem</span>;
+}
+
+<span class="hl-com">/* ── Media query (responsive) ── */</span>
+<span class="hl-kw">@media</span> (max-width: <span class="hl-val">768px</span>) {
+  <span class="hl-fn">.grid</span> { <span class="hl-attr">grid-template-columns</span>: <span class="hl-val">1fr</span>; }
+}
+
+<span class="hl-com">/* ── CSS Custom Properties (variables) ── */</span>
+<span class="hl-fn">:root</span> {
+  <span class="hl-attr">--primary</span>: <span class="hl-val">#c1440e</span>;
+  <span class="hl-attr">--font-heading</span>: <span class="hl-val">'Playfair Display', serif</span>;
+}
+<span class="hl-fn">h1</span> { <span class="hl-attr">font-family</span>: <span class="hl-val">var(--font-heading)</span>; <span class="hl-attr">color</span>: <span class="hl-val">var(--primary)</span>; }</code>
+    </div>
+
+    <div class="demo-area">
+      <div class="demo-bar">
+        <div class="demo-dot" style="background:#e8574f;"></div>
+        <div class="demo-dot" style="background:#f6b93b;"></div>
+        <div class="demo-dot" style="background:#4cba55;"></div>
+        <span class="demo-label">live demo — hover the boxes to see CSS transitions</span>
+      </div>
+      <div class="demo-inner">
+        <p style="font-size:13px;color:#666;margin-bottom:1rem;">Each box demonstrates a different CSS <code>transform</code> and <code>transition</code> property. Hover each one.</p>
+        <div style="display:flex;gap:1.5rem;flex-wrap:wrap;align-items:center;">
+          <div>
+            <div class="css-demo-box" id="box1">Scale + Rotate</div>
+            <p style="font-size:11px;color:#888;text-align:center;margin-top:6px;font-family:'DM Mono',monospace;">transform: scale &amp; rotate</p>
+          </div>
+          <div>
+            <div class="css-demo-box" id="box2">Shadow</div>
+            <p style="font-size:11px;color:#888;text-align:center;margin-top:6px;font-family:'DM Mono',monospace;">box-shadow + scale</p>
+          </div>
+          <div>
+            <div class="css-demo-box" id="box3">&#9650;</div>
+            <p style="font-size:11px;color:#888;text-align:center;margin-top:6px;font-family:'DM Mono',monospace;">translateY + border-radius</p>
+          </div>
+        </div>
+
+        <h4 style="font-size:0.85rem;margin:1.5rem 0 0.6rem;color:#555;font-weight:600;">CSS Specificity Order (highest → lowest)</h4>
+        <div style="display:flex;gap:0;border:1px solid #ddd;border-radius:6px;overflow:hidden;font-size:12px;font-family:'DM Mono',monospace;">
+          <div style="background:#c1440e;color:#fff;padding:8px 14px;flex:1;text-align:center;">Inline style<br><span style="font-size:10px;opacity:0.8;">1-0-0-0</span></div>
+          <div style="background:#1a4a6b;color:#fff;padding:8px 14px;flex:1;text-align:center;">#id<br><span style="font-size:10px;opacity:0.8;">0-1-0-0</span></div>
+          <div style="background:#555;color:#fff;padding:8px 14px;flex:1;text-align:center;">.class<br><span style="font-size:10px;opacity:0.8;">0-0-1-0</span></div>
+          <div style="background:#999;color:#fff;padding:8px 14px;flex:1;text-align:center;">element<br><span style="font-size:10px;opacity:0.8;">0-0-0-1</span></div>
+        </div>
+        <p style="font-size:12px;color:#888;margin-top:6px;">When multiple rules conflict, the rule with highest specificity wins. <code>!important</code> overrides all (use sparingly).</p>
+      </div>
+    </div>
+
+    <p style="margin-top:1rem;">This ePortfolio page itself demonstrates CSS in action: a <strong>CSS custom properties</strong> colour system (<code>:root</code> variables), a <strong>CSS Grid</strong> layout for the two-column sections, <strong>Flexbox</strong> for the navigation bar, and <strong>CSS transitions</strong> on the interactive elements in the demo above.</p>
+  </div>
+</section>
+
+<!-- SECTION 4 — BOOTSTRAP -->
+<section class="portfolio-section" id="bootstrap">
+  <div class="section-header">
+    <div class="section-num">04</div>
+    <div class="section-title-wrap">
+      <p class="section-tag">Framework</p>
+      <h2 class="section-title">Bootstrap 5 Framework</h2>
+    </div>
+  </div>
+  <div class="section-body">
+    <p>Bootstrap is the world's most popular open-source CSS framework. It provides a <strong>12-column responsive grid system</strong>, a comprehensive library of pre-built UI components (buttons, cards, modals, navbars, forms, alerts), and utility classes — all designed to accelerate development and ensure consistency across browsers.</p>
+
+    <div class="prose-box">
+      <h4>Why use a framework?</h4>
+      <p>Writing CSS from scratch for every project is time-consuming and error-prone. Bootstrap solves common layout and component problems with battle-tested, accessible, cross-browser-compatible code. Developers include it via a single <code>&lt;link&gt;</code> tag (CDN) or npm package, then build with its classes without writing raw CSS for standard components.</p>
+    </div>
+
+    <div class="code-block">
+      <span class="code-block-label">Bootstrap CDN Include</span>
+      <code><span class="hl-com">&lt;!-- 1. Link Bootstrap CSS in &lt;head&gt; --&gt;</span>
+<span class="hl-tag">&lt;link</span> <span class="hl-attr">rel=</span><span class="hl-val">"stylesheet"</span>
+      <span class="hl-attr">href=</span><span class="hl-val">"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"</span><span class="hl-tag">&gt;</span>
+
+<span class="hl-com">&lt;!-- 2. Responsive grid: 3-column on desktop, stacks on mobile --&gt;</span>
+<span class="hl-tag">&lt;div</span> <span class="hl-attr">class=</span><span class="hl-val">"container"</span><span class="hl-tag">&gt;</span>
+  <span class="hl-tag">&lt;div</span> <span class="hl-attr">class=</span><span class="hl-val">"row g-3"</span><span class="hl-tag">&gt;</span>
+    <span class="hl-tag">&lt;div</span> <span class="hl-attr">class=</span><span class="hl-val">"col-12 col-md-4"</span><span class="hl-tag">&gt;</span>Column 1<span class="hl-tag">&lt;/div&gt;</span>
+    <span class="hl-tag">&lt;div</span> <span class="hl-attr">class=</span><span class="hl-val">"col-12 col-md-4"</span><span class="hl-tag">&gt;</span>Column 2<span class="hl-tag">&lt;/div&gt;</span>
+    <span class="hl-tag">&lt;div</span> <span class="hl-attr">class=</span><span class="hl-val">"col-12 col-md-4"</span><span class="hl-tag">&gt;</span>Column 3<span class="hl-tag">&lt;/div&gt;</span>
+  <span class="hl-tag">&lt;/div&gt;</span>
+<span class="hl-tag">&lt;/div&gt;</span>
+
+<span class="hl-com">&lt;!-- 3. Bootstrap components --&gt;</span>
+<span class="hl-tag">&lt;button</span> <span class="hl-attr">class=</span><span class="hl-val">"btn btn-primary"</span><span class="hl-tag">&gt;</span>Primary Button<span class="hl-tag">&lt;/button&gt;</span>
+<span class="hl-tag">&lt;span</span>   <span class="hl-attr">class=</span><span class="hl-val">"badge bg-danger"</span><span class="hl-tag">&gt;</span>New<span class="hl-tag">&lt;/span&gt;</span>
+<span class="hl-tag">&lt;div</span>    <span class="hl-attr">class=</span><span class="hl-val">"alert alert-success"</span><span class="hl-tag">&gt;</span>Saved!<span class="hl-tag">&lt;/div&gt;</span></code>
+    </div>
+
+    <div class="demo-area">
+      <div class="demo-bar">
+        <div class="demo-dot" style="background:#e8574f;"></div>
+        <div class="demo-dot" style="background:#f6b93b;"></div>
+        <div class="demo-dot" style="background:#4cba55;"></div>
+        <span class="demo-label">live demo — Bootstrap 5 components (this page uses Bootstrap)</span>
+      </div>
+      <div class="demo-inner">
+
+        <p style="font-size:12px;color:#888;font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.5rem;">Responsive 12-column grid</p>
+        <div class="container-fluid px-0 mb-4">
+          <div class="row g-2">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div style="background:#e6f1fb;border:1px solid #b5d4f4;border-radius:4px;padding:10px;text-align:center;font-size:12px;font-family:'DM Mono',monospace;">col-12 col-md-6 col-lg-3</div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div style="background:#e1f5ee;border:1px solid #9fe1cb;border-radius:4px;padding:10px;text-align:center;font-size:12px;font-family:'DM Mono',monospace;">col-12 col-md-6 col-lg-3</div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div style="background:#faeeda;border:1px solid #fac775;border-radius:4px;padding:10px;text-align:center;font-size:12px;font-family:'DM Mono',monospace;">col-12 col-md-6 col-lg-3</div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div style="background:#eeedfe;border:1px solid #afa9ec;border-radius:4px;padding:10px;text-align:center;font-size:12px;font-family:'DM Mono',monospace;">col-12 col-md-6 col-lg-3</div>
+            </div>
+          </div>
+          <p class="bs-demo-note">Resize the window — columns stack on mobile, go 2-wide on tablet, 4-wide on desktop.</p>
+        </div>
+
+        <p style="font-size:12px;color:#888;font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.5rem;">Button variants</p>
+        <div class="mb-3 d-flex flex-wrap gap-2">
+          <button class="btn btn-primary btn-sm">Primary</button>
+          <button class="btn btn-secondary btn-sm">Secondary</button>
+          <button class="btn btn-success btn-sm">Success</button>
+          <button class="btn btn-danger btn-sm">Danger</button>
+          <button class="btn btn-outline-primary btn-sm">Outline</button>
+          <button class="btn btn-dark btn-sm">Dark</button>
+        </div>
+
+        <p style="font-size:12px;color:#888;font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.5rem;">Alerts &amp; Badges</p>
+        <div class="alert alert-success py-2 px-3 mb-2" style="font-size:13px;">
+          <strong>Success!</strong> Your form was submitted. <span class="badge bg-success ms-1">saved</span>
+        </div>
+        <div class="alert alert-warning py-2 px-3 mb-2" style="font-size:13px;">
+          <strong>Warning!</strong> Please review your input. <span class="badge bg-warning text-dark ms-1">review</span>
+        </div>
+
+        <p style="font-size:12px;color:#888;font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:0.08em;margin:1rem 0 0.5rem;">Card component</p>
+        <div class="row g-2">
+          <div class="col-12 col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title" style="font-size:14px;">Bootstrap Card</h5>
+                <p class="card-text" style="font-size:13px;color:#666;">Cards are flexible content containers with header, body and footer options.</p>
+                <a href="#" class="btn btn-primary btn-sm" onclick="return false;">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6">
+            <div class="card border-success">
+              <div class="card-header bg-success text-white" style="font-size:13px;">Featured</div>
+              <div class="card-body">
+                <p class="card-text" style="font-size:13px;color:#666;">Cards can have coloured headers and semantic borders using Bootstrap's colour utilities.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <p style="margin-top:1rem;">The demo above is rendered using Bootstrap 5 classes. The grid system uses breakpoint suffixes (<code>col-md-*</code>, <code>col-lg-*</code>) to control layout at different viewport widths, demonstrating Bootstrap's mobile-first responsive approach. The components (buttons, alerts, cards) require zero custom CSS.</p>
+  </div>
+</section>
+
+<!-- SECTION 5 — JAVASCRIPT -->
+<section class="portfolio-section" id="javascript">
+  <div class="section-header">
+    <div class="section-num">05</div>
+    <div class="section-title-wrap">
+      <p class="section-tag">Behaviour</p>
+      <h2 class="section-title">JavaScript — Dynamic Behaviour</h2>
+    </div>
+  </div>
+  <div class="section-body">
+    <p>JavaScript is the programming language of the web. While HTML provides structure and CSS provides style, JavaScript adds <em>behaviour</em> — responding to user events, manipulating the DOM, fetching data from APIs, and enabling fully interactive experiences without page reloads.</p>
+
+    <div class="prose-box">
+      <h4>How JavaScript works in the browser</h4>
+      <p>JavaScript is executed by the browser's JS engine (e.g. V8 in Chrome). Scripts can target HTML elements via the DOM API (<code>document.querySelector</code>), attach event listeners (<code>addEventListener</code>), and modify content, attributes, or styles dynamically. Modern JS (ES6+) introduces classes, arrow functions, template literals, destructuring, modules, and <code>async/await</code> for cleaner, more expressive code.</p>
+    </div>
+
+    <div class="code-block">
+      <span class="code-block-label">JavaScript ES6+</span>
+      <code><span class="hl-com">// ── DOM manipulation ──</span>
+<span class="hl-kw">const</span> btn = document.<span class="hl-fn">querySelector</span>(<span class="hl-str">'#myBtn'</span>);
+btn.<span class="hl-fn">addEventListener</span>(<span class="hl-str">'click'</span>, () =&gt; {
+  document.<span class="hl-fn">querySelector</span>(<span class="hl-str">'#output'</span>).textContent = <span class="hl-str">'Clicked!'</span>;
+});
+
+<span class="hl-com">// ── Arrays & functional methods ──</span>
+<span class="hl-kw">const</span> todos = [<span class="hl-str">'Learn HTML'</span>, <span class="hl-str">'Study CSS'</span>, <span class="hl-str">'Build a project'</span>];
+<span class="hl-kw">const</span> done  = todos.<span class="hl-fn">filter</span>(t =&gt; t.<span class="hl-fn">startsWith</span>(<span class="hl-str">'Learn'</span>));
+
+<span class="hl-com">// ── Async / Fetch API ──</span>
+<span class="hl-kw">async function</span> <span class="hl-fn">getUser</span>(id) {
+  <span class="hl-kw">const</span> res  = <span class="hl-kw">await</span> <span class="hl-fn">fetch</span>(<span class="hl-str">`https://api.example.com/users/<span class="hl-num">${id}</span>`</span>);
+  <span class="hl-kw">const</span> data = <span class="hl-kw">await</span> res.<span class="hl-fn">json</span>();
+  <span class="hl-kw">return</span> data;
+}
+
+<span class="hl-com">// ── Classes (OOP) ──</span>
+<span class="hl-kw">class</span> <span class="hl-fn">TodoList</span> {
+  <span class="hl-fn">constructor</span>() { <span class="hl-kw">this</span>.items = []; }
+  <span class="hl-fn">add</span>(text)    { <span class="hl-kw">this</span>.items.<span class="hl-fn">push</span>({ text, done: <span class="hl-kw">false</span> }); }
+  <span class="hl-fn">toggle</span>(i)   { <span class="hl-kw">this</span>.items[i].done = !<span class="hl-kw">this</span>.items[i].done; }
+}</code>
+    </div>
+
+    <div class="demo-area">
+      <div class="demo-bar">
+        <div class="demo-dot" style="background:#e8574f;"></div>
+        <div class="demo-dot" style="background:#f6b93b;"></div>
+        <div class="demo-dot" style="background:#4cba55;"></div>
+        <span class="demo-label">live demo — interactive to-do list (vanilla JavaScript)</span>
+      </div>
+      <div class="demo-inner">
+        <p style="font-size:13px;color:#666;margin-bottom:1rem;">A fully functional to-do list built with JavaScript classes, DOM manipulation, and event listeners. Add tasks and click checkboxes to complete them.</p>
+        <div style="display:flex;gap:8px;margin-bottom:1rem;">
+          <input id="todo-input" type="text" placeholder="Add a task…" maxlength="80">
+          <button id="todo-add">+ Add</button>
+        </div>
+        <ul id="todo-list"></ul>
+        <p id="todo-count"></p>
+
+        <div style="margin-top:1.5rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0.8rem;">
+          <div style="background:#f5f2eb;border-radius:6px;padding:0.8rem 1rem;border:1px solid #ddd;">
+            <p style="font-family:'DM Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:0.08em;color:#888;margin-bottom:4px;">Used in demo</p>
+            <p style="font-size:13px;font-weight:500;margin:0;">ES6 Classes</p>
+          </div>
+          <div style="background:#f5f2eb;border-radius:6px;padding:0.8rem 1rem;border:1px solid #ddd;">
+            <p style="font-family:'DM Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:0.08em;color:#888;margin-bottom:4px;">Used in demo</p>
+            <p style="font-size:13px;font-weight:500;margin:0;">DOM Manipulation</p>
+          </div>
+          <div style="background:#f5f2eb;border-radius:6px;padding:0.8rem 1rem;border:1px solid #ddd;">
+            <p style="font-family:'DM Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:0.08em;color:#888;margin-bottom:4px;">Used in demo</p>
+            <p style="font-size:13px;font-weight:500;margin:0;">Event Listeners</p>
+          </div>
+          <div style="background:#f5f2eb;border-radius:6px;padding:0.8rem 1rem;border:1px solid #ddd;">
+            <p style="font-family:'DM Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:0.08em;color:#888;margin-bottom:4px;">Used in demo</p>
+            <p style="font-size:13px;font-weight:500;margin:0;">Array Methods</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p style="margin-top:1rem;">The to-do list above demonstrates four core JavaScript concepts simultaneously: a <strong>class</strong> encapsulates the data and methods (<code>add</code>, <code>toggle</code>, <code>remove</code>); <strong>DOM manipulation</strong> rebuilds the list HTML every time state changes; <strong>event listeners</strong> respond to button clicks and keyboard Enter presses; and <strong>array methods</strong> (<code>filter</code>, <code>length</code>) compute the count of remaining tasks dynamically.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>CET138 Full Stack Development &mdash; Assignment 1 &mdash; ePortfolio &mdash; 2025</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
